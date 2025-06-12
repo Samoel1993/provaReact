@@ -1,0 +1,49 @@
+.container-pets {
+    margin: 0 auto;
+    max-width: 890px;   
+    padding: 5rem;
+    text-align: left;
+}
+
+
+
+.listas-pets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.itens-pets {
+    box-sizing: border-box;
+    min-width: 200px;
+    min-height: 180px;
+    background-color: rgb(216, 228, 216);
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+    
+}
+
+.itens-pets:hover {
+    background-color: #aabdd3;
+}
+
+.pet-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5rem;
+  }
+  
+  .detalhes-rolamento {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+  
+  }
